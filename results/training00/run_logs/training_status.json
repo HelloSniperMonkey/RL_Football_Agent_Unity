@@ -1,0 +1,10 @@
+{
+    "SoccerTwos": {
+        "elo": 1201.96281630874
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
