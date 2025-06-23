@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1744702992",
+        "python_version": "3.10.12 (main, Jul  5 2023, 15:02:25) [Clang 14.0.6 ]",
+        "command_line_arguments": "/opt/anaconda3/envs/mlagents/bin/mlagents-learn ./FootballTwos.yaml --run-id=training_id",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.6.0",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1744703053"
+    },
+    "total": 60.791346915997565,
+    "count": 1,
+    "self": 0.013751041988143697,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01565970800584182,
+            "count": 1,
+            "self": 0.01565970800584182
+        },
+        "TrainerController.start_learning": {
+            "total": 60.76193616600358,
+            "count": 1,
+            "self": 0.00011079100659117103,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.761793417012086,
+                    "count": 1,
+                    "self": 60.761793417012086
+                },
+                "TrainerController._save_models": {
+                    "total": 3.1957984901964664e-05,
+                    "count": 1,
+                    "self": 3.1957984901964664e-05
+                }
+            }
+        }
+    }
+}
